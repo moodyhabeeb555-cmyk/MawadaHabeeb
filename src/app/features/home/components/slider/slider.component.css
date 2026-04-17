@@ -1,0 +1,31 @@
+	.item {
+  background-image:
+    linear-gradient(to right, #6b83c780), url(/assets/clouthes.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+	.item1 {
+  background-image:
+    linear-gradient(to right, #eb97dd80), url(/assets/Make.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+	.item2 {
+  background-image:
+    linear-gradient(to right, #86d4d180), url(/assets/Devices.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+swiper-container::part(button-prev),
+swiper-container::part(button-next){
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  color: #16a34a;
+  padding: 14px;
+  border-radius: 50%;
+  box-shadow: 0,0, 10px, rgb(15, 5, 5);
+}
